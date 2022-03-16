@@ -1,0 +1,2 @@
+As a student user, the student must be able to view all of the course assignments and their
+corresponding instructions and due dates. 

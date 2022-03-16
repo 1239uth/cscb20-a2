@@ -1,0 +1,1 @@
+As a student user, the user must be able to quickly navigate the website through a global sidebar.

@@ -1,0 +1,2 @@
+As a student user, the student must be able to view the week by week content of the course. It should
+include relevant infomation such as the topics, readings, and lecture slides.

@@ -1,0 +1,3 @@
+As a student user, the student must be able to see the general overview of the course. 
+The general overview should include information about the course such as the course description and
+information about the instructor(s) and how to contact them. 
