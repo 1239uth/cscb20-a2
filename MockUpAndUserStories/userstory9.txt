@@ -1,0 +1,1 @@
+As a student user, the student must be able to access information about each tutorial and its corresponding material. 

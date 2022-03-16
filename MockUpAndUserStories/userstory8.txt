@@ -1,0 +1,2 @@
+As a student user, the student must be able to access information about the course instructors and 
+their contact information. 
