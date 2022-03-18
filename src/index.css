@@ -74,6 +74,10 @@ footer a:visited,
 footer a:link {
     color:rgb(78, 109, 143);
 }
+footer a:hover {
+    color:rgb(111, 144, 180);
+    text-decoration: unset;
+}
 
 
 /* BUTTONS */

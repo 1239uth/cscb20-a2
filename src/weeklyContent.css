@@ -27,7 +27,9 @@ header {
 }
 
 main {
+    width: 100%;
     padding: 5% 10%;
+    align-self: flex-start;
     text-align: start;
 }
 
@@ -46,14 +48,42 @@ header nav {
     display: flex;
     justify-content: space-evenly;
 }
+/* ^^ MAIN STRUCTURE ^^ */
 
-h1 {
-    font-size: 40px;
-    padding-bottom: 10px;
+
+ul {
+   list-style-type: none; 
 }
 
-main p {
-    color: rgb(77, 77, 77);
+.headers {
+    border-bottom: 0.5px solid  rgb(78, 109, 143);
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.headers,
+.rows>li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headers>li:nth-of-type(3),
+.rows a:nth-of-type(1) {
+    margin-left: 30%;
+}
+
+.headers li,
+.rows p {
+    white-space: nowrap;
+}
+
+.headers>li,
+.rows a,
+.rows p {
+    margin: 10px;
 }
 
 
@@ -71,14 +101,15 @@ header nav a:hover {
 }
 
 footer a:visited, 
-footer a:link {
+footer a:link,
+main a {
     color:rgb(78, 109, 143);
 }
-footer a:hover {
+footer a:hover, 
+main a:hover {
     color:rgb(111, 144, 180);
     text-decoration: unset;
 }
-
 
 
 /* MOBILE DESIGN */
@@ -96,5 +127,28 @@ footer a:hover {
     header nav a {
         padding-bottom: 10px;
         border-bottom: 2px solid  rgb(78, 109, 143);
+    }
+
+    .headers>li:nth-of-type(3),
+    .rows a:nth-of-type(1) {
+        margin-left: 10px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .headers li {
+        margin: 2px;
+    }
+
+    main p, main a {
+        font-size: 11px;
+    }
+
+    h2 {
+        font-size: 13px;
     }
 }
