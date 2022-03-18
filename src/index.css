@@ -22,16 +22,16 @@ body {
 
 header {
     padding: 1% 0;
-    border-bottom: 1px solid  rgb(180, 136, 68);
+    border-bottom: 1px solid  rgb(78, 109, 143);
     width: 768px;
 }
 
 main {
-    padding: 5% 10% 5% 10%;
+    padding: 5% 10%;
 }
 
 footer {
-    border-top: 2px solid rgb(180, 136, 68);
+    border-top: 2px solid rgb(78, 109, 143);
     width: 500px;
     margin-top: auto;
 
@@ -59,20 +59,20 @@ main nav {
 
 /* LINKS */
 header nav a {
-    color: rgb(180, 136, 68);
+    color: rgb(78, 109, 143);
     padding: 0 7px;
     text-decoration: unset;
     font-weight: 600;
-    text-shadow: 0.3px 0.3px  rgb(180, 136, 68);
+    text-shadow: 0.3px 0.3px  rgb(78, 109, 143);
 }
 header nav a:hover {
-    text-shadow: 0.5px 1.5px  rgb(180, 136, 68);
+    text-shadow: 0.5px 1.5px  rgb(78, 109, 143);
     font-size: 16.5px;
 }
 
 footer a:visited, 
 footer a:link {
-    color:rgb(180, 136, 68);
+    color:rgb(78, 109, 143);
 }
 
 
@@ -117,7 +117,7 @@ footer a:link {
 
     header nav a {
         padding-bottom: 10px;
-        border-bottom: 2px solid  rgb(180, 136, 68);
+        border-bottom: 2px solid  rgb(78, 109, 143);
     }
 
 
