@@ -51,6 +51,10 @@ header nav {
 /* ^^ MAIN STRUCTURE ^^ */
 
 
+section {
+    margin-bottom: 5%;
+}
+
 ul {
    list-style-type: none; 
 }
@@ -81,28 +85,7 @@ h2 {
     margin: 10px;
 }
 
-.rows>li {
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.rows p,
-.rows a, 
-.headers>li{
-    width: 10%;
-}
-
-.rows>li>p:nth-of-type(2),
-.rows>li>p:nth-of-type(4),
-.headers>li:nth-of-type(5) {
-    width: 160px;
-    /* margin-right: 90px;
-    padding-right: 50px; */
-}
-
-/* .rows>li>p:nth-of-type(3) {
-    width: 50px;
-}  */
 
 section>p {
     font-style: italic;
@@ -132,6 +115,21 @@ main a:hover {
     text-decoration: unset;
 }
 
+@media screen and (max-width: 900px) {
+    /* #in-class {
+        width: 0;
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+    }
+
+    .rows>li>a:nth-of-type(2) {
+        width: 0;
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+    } */
+}
 
 /* MOBILE DESIGN */
 @media screen and (max-width: 768px) {
@@ -153,6 +151,20 @@ main a:hover {
     h2 {
         font-size: 15px;
     }
+
+    /* #lecture-material {
+        width: 0;
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+    }
+
+    .rows>li>a:nth-of-type(1) {
+        width: 0;
+        padding: 0;
+        margin: 0;
+        visibility: hidden;
+    } */
 }
 
 @media screen and (max-width: 400px) {
