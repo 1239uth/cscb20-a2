@@ -111,3 +111,22 @@ footer a:visited,
 footer a:link {
     color:rgb(78, 109, 143);
 }
+
+
+/* MOBILE DESIGN */
+@media screen and (max-width: 768px) {
+    header {
+        border-bottom: 0px;
+    }
+
+    header nav {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 300px;
+    }
+
+    header nav a {
+        padding-bottom: 10px;
+        border-bottom: 2px solid  rgb(78, 109, 143);
+    }
+}
